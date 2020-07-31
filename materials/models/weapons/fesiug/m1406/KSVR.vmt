@@ -1,0 +1,25 @@
+VertexLitGeneric
+{
+	$basetexture 		"models\weapons\fesiug\m1406\KSVR_albedo"
+	$detail 			"models\weapons\fesiug\m1406\KSVR_AO"
+	$bumpmap 			"models\weapons\fesiug\m1406\KSVR_normal"
+	
+	$normalmapalphaenvmapmask   "1"
+	$envmap 	env_cubemap
+	$envmaptint   "[.5 .5 .5]"
+	$envmapfresnel "1" // Advanced envmap reflections
+	
+	$detailscale 1
+	$detailblendmode 0
+	$detailblendfactor 2
+	$color2 "[0.6 0.6 0.6]"
+	
+	$phongexponenttexture	"models/exp_gun"
+	$phongexponent			30
+	$phong					1
+	$phongboost				3
+	$phongfresnelranges		"[0.25 0.75 1.00]"
+	$phongalbedotint		1
+	
+	$nocull  1
+}

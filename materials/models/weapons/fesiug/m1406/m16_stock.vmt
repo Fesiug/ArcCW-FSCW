@@ -1,0 +1,15 @@
+VertexLitGeneric
+{
+	$basetexture 		"models\weapons\fesiug\m1406\m16_stock"
+	
+	$color2 "[1 1 1]"
+	
+	$phongexponenttexture	"models/exp_gun"
+	$phongexponent			30
+	$phong					1
+	$phongboost				3
+	$phongfresnelranges		"[0.25 0.75 1.00]"
+	$phongalbedotint		1
+	
+	$nocull  1
+}

@@ -1,0 +1,7 @@
+VertexLitGeneric
+{
+	$basetexture 		"models\weapons\fesiug\m1406\9mm_color"
+	$bumpmap 			"models\weapons\fesiug\m1406\9mm_normal"
+	
+	$nocull  1
+}

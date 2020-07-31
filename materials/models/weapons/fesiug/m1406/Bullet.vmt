@@ -1,0 +1,23 @@
+VertexLitGeneric
+{
+	$basetexture 		"models\weapons\fesiug\m1406\Bullet_AlbedoTransparency"
+	//$AmbientOcclTexture "models\weapons\fesiug\m1406\Bullet_AO"
+	//$detail 			"models\weapons\fesiug\m1406\Bullet_MetallicSmoothness"
+	$detail 			"models\weapons\fesiug\m1406\Bullet_AO"
+	$bumpmap 			"models\weapons\fesiug\m1406\Bullet_Normal"
+	
+	//$ambientocclusion 1
+	
+	$detailscale 1
+	$detailblendmode 0
+	$detailblendfactor -0.3
+	
+	$phongexponenttexture	"models/exp_gun"
+	$phongexponent			30
+	$phong					1
+	$phongboost				3
+	$phongfresnelranges		"[0.25 0.75 1.00]"
+	$phongalbedotint		1
+	
+	$nocull  1
+}
